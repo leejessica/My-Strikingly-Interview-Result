@@ -23,6 +23,9 @@ Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hang
 
 
 ###收获
+1. 更加了解JavaScript异步编程
+2. 大量数据很重要，分析数据更重要
+3. ...
 
 
 ##Task 3: HTML/CSS
@@ -37,5 +40,11 @@ Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hang
 
 ###思路
 
+1. 将图片下载下来
+2. 用图像处理软件(例如Photoshop)打开
+3. 将图片放大到像素级别
+4. 一点点抠细节
 
 ###收获
+
+(待补充)
