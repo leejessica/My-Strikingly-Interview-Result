@@ -47,6 +47,10 @@ Strikingly要求游戏流程如下：
 
 用HTML/CSS来实现这张图片
 
+###效果图
+
+![By h1994st](https://raw.githubusercontent.com/h1994st/My-Strikingly-Interview-Result/master/TASK3/result.png)
+
 ###思路
 
 1. 将图片下载下来
