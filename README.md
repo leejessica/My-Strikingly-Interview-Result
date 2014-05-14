@@ -11,7 +11,11 @@ My Strikingly Interview Result
 
 Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hangman Game服务器提供的REST API发出请求来玩这个游戏
 
-[点击这里](https://github.com/joycehan/strikingly-interview-test-instructions)可以看到该游戏的指导信息
+[点击这里](https://github.com/joycehan/strikingly-interview-test-instructions)可以看到Strikingly提供的游戏指导信息
+
+Strikingly要求游戏流程如下：
+1. Initialize the game with a API call
+2. 
 
 ###思路
 
@@ -21,6 +25,11 @@ Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hang
 
 这篇文章给了我很大帮助
 
+我一共写了两个版本：
+*Version 1, 这个版本用于浏览器的JavaScript Console
+*Version 2, 这个版本用Node.js编写
+
+两个版本的思路大致都一样
 
 ###收获
 1. 更加了解JavaScript异步编程
@@ -41,9 +50,10 @@ Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hang
 ###思路
 
 1. 将图片下载下来
-2. 用图像处理软件(例如Photoshop)打开
-3. 将图片放大到像素级别
-4. 一点点抠细节
+2. 对图片分块，完成HTML代码
+3. 用图像处理软件(例如Photoshop)打开
+4. 将图片放大到像素级别
+5. 一点点抠细节，完成CSS代码
 
 ###收获
 
