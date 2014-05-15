@@ -33,6 +33,7 @@ Strikingly要求游戏流程如下：
 * Version 3，这个版本也用Node.js编写，但是程序本身拥有学习能力
 
 前两个版本的思路大致都一样
+
 第三个版本需要时间来学习，以达到提高猜对单词个数、降低猜错次数的目的，但是学习效率太低
 
 ###收获
@@ -40,7 +41,6 @@ Strikingly要求游戏流程如下：
 1. 更加了解JavaScript异步编程
 2. 大量数据很重要，分析数据更重要
 3. ...
-
 
 ##Task 3: HTML/CSS
 
@@ -50,13 +50,17 @@ Strikingly要求游戏流程如下：
 
 用HTML/CSS来实现这张图片，字体要求从Google Fonts选取
 
-Task 3用的是Josefin Sans字体，在HTML代码中加上如下代码：
-
-`<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>`
-
 ![From Dribbble](http://dribbble.s3.amazonaws.com/users/329582/screenshots/1180492/slide-59.jpg "Task 3")
 
 ###效果图
+
+我用的是Josefin Sans字体，在HTML代码中需要加上如下代码：
+
+`<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>`
+
+并在CSS中设置：
+
+`font-family: 'Josefin Sans', sans-serif;`
 
 ![By h1994st](https://raw.githubusercontent.com/h1994st/My-Strikingly-Interview-Result/master/TASK3/result.png)
 
