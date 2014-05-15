@@ -74,7 +74,8 @@ Strikingly要求游戏流程如下：
 
 ###收获
 
-(待补充)
+1. CSS中`transprant`这个属性在不同浏览器中表现并不一样，在Chrome中实际上是`rgba(255, 255, 255, 0)`，在Firefox中则是`rgba(0, 0, 0, 0)`，这一点可以通过渐变体现出来，如下代码`linear-gradient(rgba(255, 255, 255, .85), transparent)`可以清晰看到这一点
+2. 
 
 
 
