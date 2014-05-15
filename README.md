@@ -46,11 +46,15 @@ Strikingly要求游戏流程如下：
 
 ###题目要求
 
-从Dribbble上找来一张[图](http://dribbble.s3.amazonaws.com/users/329582/screenshots/1180492/slide-59.jpg)
+从Dribbble上找来一张[图](http://dribbble.s3.amazonaws.com/users/329582/screenshots/1180492/slide-59.jpg)，见下
+
+用HTML/CSS来实现这张图片，字体要求从Google Fonts选取
+
+Task 3用的是Josefin Sans字体，在HTML代码中加上如下代码：
+
+`<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700' rel='stylesheet' type='text/css'>`
 
 ![From Dribbble](http://dribbble.s3.amazonaws.com/users/329582/screenshots/1180492/slide-59.jpg "Task 3")
-
-用HTML/CSS来实现这张图片
 
 ###效果图
 
@@ -67,3 +71,6 @@ Strikingly要求游戏流程如下：
 ###收获
 
 (待补充)
+
+
+
