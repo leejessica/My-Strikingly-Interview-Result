@@ -74,8 +74,8 @@ Strikingly要求游戏流程如下：
 
 ###收获
 
-1. CSS中`transprant`这个属性在不同浏览器中表现并不一样，在Chrome中实际上是`rgba(255, 255, 255, 0)`，在Firefox中则是`rgba(0, 0, 0, 0)`，这一点可以通过渐变体现出来，如下代码`linear-gradient(rgba(255, 255, 255, .85), transparent)`可以清晰看到这一点
-2. 
+1. CSS中`transprant`这个属性在不同浏览器中表现并不一样，在Chrome中实际上是`rgba(255, 255, 255, 0)`，在Firefox、Safari中则是`rgba(0, 0, 0, 0)`，这一点可以通过渐变体现出来，如下代码`linear-gradient(rgba(255, 255, 255, .85), transparent)`可以清晰看到这一点，不同浏览器中用不同的前缀，并且参数略有不同，主要是`direction`参数
+2. CSS中`box-shadow`可以设置多个值，用逗号分开，例如：`box-shadow: inset 0 1px 0 #d16e59, 0 1px 1px rgba(0, 0, 0, .075);`
 
 
 
