@@ -9,13 +9,14 @@ My Strikingly Interview Result
 
 用JavaScript写一个程序，使之可以自动玩Hangman Game(游戏介绍见[Wikipedia](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCoQFjAA&url=%68%74%74%70%3a%2f%2f%65%6e%2e%77%69%6b%69%70%65%64%69%61%2e%6f%72%67%2f%77%69%6b%69%2f%48%61%6e%67%6d%61%6e%5f%28%67%61%6d%65%29&ei=_LFxU4T3BMP88QWNrIKgAg&usg=AFQjCNENObp8BVLOXL9i7bQkgzI_d9kojw&sig2=hqJ3A7rKUS_PFMVOkECWbg&bvm=bv.66330100,d.dGc))
 
-Strikingly在服务器上设计了一个Hangman Game，用户可以通过向Hangman Game服务器提供的REST API发出请求来玩这个游戏
+Strikingly在服务器上设计了一个Hangman Game，用户需要向Hangman Game服务器提供的REST API发出请求来玩这个游戏
 
 [点击这里](https://github.com/joycehan/strikingly-interview-test-instructions)可以看到Strikingly提供的游戏指导信息
 
 Strikingly要求游戏流程如下：
-1. Initialize the game with a API call
-2. 
+
+1. Initialize the game with an API call and get the secret key
+2. After getting the secret key, 
 
 ###思路
 
@@ -26,14 +27,16 @@ Strikingly要求游戏流程如下：
 这篇文章给了我很大帮助
 
 我一共写了两个版本：
+
 * Version 1，这个版本用于浏览器的JavaScript Console
 * Version 2，这个版本用Node.js编写
-* Version 3，这个版本也用Node.js编写，但是可以自行学习
+* Version 3，这个版本也用Node.js编写，但是程序本身拥有学习能力
 
 前两个版本的思路大致都一样
 第三个版本需要时间来学习，以达到提高猜对单词个数、降低猜错次数的目的，但是学习效率太低
 
 ###收获
+
 1. 更加了解JavaScript异步编程
 2. 大量数据很重要，分析数据更重要
 3. ...
