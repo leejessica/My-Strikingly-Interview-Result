@@ -9,10 +9,10 @@ var request = require('request');
 var Word = require('./word.js');
 
 // 游戏URL
-var gameURL = 'http://strikingly-interview-test.herokuapp.com/guess/process';
+var gameURL = '***'; // Strikingly提供的地址
 
 // 用户名
-var userID = "h1994st@gmail.com";
+var userID = "***@***.***"; // 自己的email
 
 // 当前单词，不是String，是一个Word对象，初始化时注意
 var _currentWord;

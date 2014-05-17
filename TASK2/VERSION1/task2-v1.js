@@ -49,10 +49,10 @@
     checkReady(function($) {
         if (typeof jQuery === "undefined") {throw new Error("Requires jQuery");}
 
-        var HangmanGame = function(email) {
+        var HangmanGame = function(email, url) {
             // Private variables
             var userId = email;
-            var gameURL = "http://strikingly-interview-test.herokuapp.com/guess/process";
+            var gameURL = url;
             var secret = "";
 
             var action = ["initiateGame", "nextWord", "guessWord", "getTestResults", "submitTestResults"];
@@ -272,7 +272,7 @@
             }
         }
 
-        var game = new HangmanGame("h1994st@gmail.com");
+        var game = new HangmanGame("***@***.***", "***"); //分别替换成自己的邮箱和Strikingly提供的地址
         game.startGame();
     });
 })();

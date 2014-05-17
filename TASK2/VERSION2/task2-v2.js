@@ -9,10 +9,10 @@ var request = require('request');
 
 // Global variables
 // Game URL
-var gameURL = 'http://strikingly-interview-test.herokuapp.com/guess/process';
+var gameURL = '***'; // Strikingly提供的地址
 
 // My user ID
-var userID = "h1994st@gmail.com";
+var userID = "***@***.***"; // 替换成自己的email
 
 // Guess character position - index
 var po = 0;
